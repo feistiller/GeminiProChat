@@ -25,6 +25,8 @@
     "eslint": "^8.43.0",
     "eventsource-parser": "^1.0.0",
     "highlight.js": "^11.8.0",
+    "i18next": "^23.7.18",
+    "i18next-http-backend": "^2.4.2",
     "js-sha256": "^0.9.0",
     "katex": "^0.16.7",
     "markdown-it": "^13.0.1",

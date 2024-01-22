@@ -1,0 +1,11 @@
+{
+    "password_prompt": "请输入密码",
+    "chat_info": "对话",
+    "base_link_info": "基于Google Gemini API",
+    "open_source_info": "开源链接",
+    "send_msg": "发送",
+    "Regenerate": "重新生成",
+    "input_msg": "输入对话",
+    "comming_soon": "即将到来",
+    "open_source_info_link":"https://github.com/feistiller/GeminiProChat"
+}

@@ -10,11 +10,21 @@ import Themetoggle from './Themetoggle.astro'
   </div>
   <div class="fi mt-2">
     <a href="https://geminiprochat.com" class="gpt-title">Gemini Pro</a>
-    <a href="https://geminiprochat.com" class="gpt-subtitle">Chat</a>
+    <a href="https://geminiprochat.com" class="gpt-subtitle" id="chat_info"></a>
   </div>
   <p mt-1 op-60>
-    Based on
-    <a href="https://blog.geminiprochat.com/posts/what-is-gemini"> Gemini Pro API.</a>
-    <a href="https://github.com/babaohuang/GeminiProChat" class="font-bold">Source code</a>
+    <a href="https://blog.geminiprochat.com/posts/what-is-gemini" id="base_link_info"></a>
+    <a href="https://github.com/babaohuang/GeminiProChat" class="font-bold" id="open_source_info"></a>
   </p>
 </header>
+<script>
+import getI18n from '../layouts/i18n.js'
+document.addEventListener('DOMContentLoaded', async() => {
+  const i18n = await getI18n()
+  document.getElementById('chat_info').textContent = i18n.t('chat_info')
+  document.getElementById('base_link_info').textContent = i18n.t('base_link_info')
+  const open_source_info = document.getElementById('open_source_info')
+  open_source_info.textContent = i18n.t('open_source_info')
+  open_source_info.href = i18n.t('open_source_info_link')
+})
+</script>

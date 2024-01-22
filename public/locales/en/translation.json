@@ -1,0 +1,11 @@
+{
+    "password_prompt": "Please input password",
+    "chat_info": "chat",
+    "base_link_info": "Based on Gemini Pro API",
+    "open_source_info": "Source code",
+    "send_msg": "Send",
+    "Regenerate": "Regenerate",
+    "input_msg": "Please input message",
+    "comming_soon": "Coming soon",
+    "open_source_info_link":"https://github.com/babaohuang/GeminiProChat"
+}
